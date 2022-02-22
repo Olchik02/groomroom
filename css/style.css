@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav a{
+    display: block;
+    background-color: bisque;
+    text-decoration: none;
+    padding: 10px;
+
+}
+nav a.active{
+    background-color: blueviolet;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+.form input{
+    font-size: large;
+    padding: 5px;
+    margin: 10px; 
+}
+
+.form button{
+    font-size: large;
+    padding: 5px;
+    margin: 10px;
+}
+.error{
+    color: red;
+    border: 2px solid red;
+}
+#error{
+    display: none;
+}
